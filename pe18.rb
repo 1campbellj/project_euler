@@ -71,7 +71,7 @@ next_node_list << root
       puts "#{node_list[1].content} -> #{n.content}"
     end
     next_node_list << n
-    node_list.shift if (j+1)%2 == 0 || j > 1
+    node_list.shift if j >= 1
     puts "node_list"
     node_list.each {|nl| puts nl.content}
     puts "next_node_list"
