@@ -1,3 +1,5 @@
+require_relative 'card'
+
 class HandRank
   include Comparable
 
