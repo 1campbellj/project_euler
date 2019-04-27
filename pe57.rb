@@ -7,9 +7,7 @@ end
 sum = 0
 for i in 1..1_000
   r = sqrt_2(i)
-  if r.numerator.to_s.length > r.denominator.to_s.length
-    sum += 1
-  end
+  sum += 1 if r.numerator.to_s.length > r.denominator.to_s.length
 end
 
 puts sum
