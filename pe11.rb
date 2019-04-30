@@ -84,24 +84,4 @@ def max_diagonal(grid)
   return max_prod
 end
 
-
-
-
-
 puts [max_diagonal(grid), max_vertical(grid), max_horizontal(grid)].max
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
