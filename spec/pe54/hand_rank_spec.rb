@@ -76,12 +76,6 @@ RSpec.describe HandRank, 'HandRank' do
     expect(h.one_pair?).to be_truthy
   end
 
-  it 'sorts for the highest card' do
-    h = HandRank.new('5H 6H 7H AH 9H')
-
-    expect(h.high_card?[:cards]).to eq [5, 6, 7, 9, 14]
-  end
-
   it 'initializes rank of the hand' do
     h = HandRank.new('TH JH QH KH AH')
 
